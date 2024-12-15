@@ -1,0 +1,77 @@
+
+
+:root{
+    --body-color: #000000a2;
+    --dark-color: #222831;
+    --text-color: #0004ff;
+    --dark-red: #d01418;
+    --border-color: #6666662a;
+    --name-item: #393E46;
+}
+
+.str{
+  margin: 200px 30px;
+  background-color: #31304D;
+  border:3px solid #31304D;
+  border-radius: 5px 5px;
+  width: 50%;
+}
+
+.loader {
+  width: 100%;
+  height: 4.8px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  
+}
+.loader::after {
+  content: 'منصتي';  
+  width: 50%;
+  height: 6px;
+  background-color: var(--dark-color);
+  position: absolute;
+  border-radius:30px 30px;
+  box-sizing: border-box;
+  
+}
+
+
+
+  .loader1 {
+    position: relative;
+    display: inline-block;
+  }
+  .loader1::before {
+    
+    content: 'منصتي';
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    letter-spacing: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Protest Revolution';
+      font-style: italic;
+      font-weight:300;
+  
+  }
+  
+  .dropdown_content{
+      position: absolute;
+      background-color: #31304D;
+      color: var(--text-color);
+      min-width: 100px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      margin: 0 -20px;
+      text-align: center;
+      align-items: center;
+    }
+    .dropdown_content a {
+      color: var(--text-color);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  

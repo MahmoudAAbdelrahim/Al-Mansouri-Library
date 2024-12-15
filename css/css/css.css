@@ -1,0 +1,23 @@
+
+.form {
+    max-width: 400px;
+margin: 50px auto;
+
+ }
+.form  input, form-bottom{
+    margin: 5px;
+ }
+ .form i{
+    height: 0;
+    float: left;
+    position: relative;
+    top: -28px;
+    left: 10px;
+    color: #999;
+
+ }.form  input{
+    padding:0 35px;
+    height:40px;
+
+
+   }
